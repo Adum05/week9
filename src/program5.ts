@@ -1,7 +1,7 @@
 import { Youth } from "./youth";
 import { Veteran } from "./veteran";
 import { Player } from "./player";
-import { Team } from "./team";
+import { RealMadrid } from "./team";
 import { ReadytoPlay } from "./readytoplay";
 import { Logable } from "./logable";
 

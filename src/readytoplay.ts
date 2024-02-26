@@ -1,4 +1,5 @@
 import { Logable } from "./logable";
+import { RealMadrid } from "./team";
 
 export class ReadytoPlay{
     readytoPlay(value:Logable){
