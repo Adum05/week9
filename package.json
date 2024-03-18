@@ -7,7 +7,7 @@
 	"scripts": { 
 		"init": "npm i",
 		"lint": "eslint . --ext .ts",
-		"start": "nodemon src/program5.ts",
+		"start": "nodemon src/finalprogram8.ts",
 		"watch": "tsc --watch"
 	},
 	"license": "ISC",
