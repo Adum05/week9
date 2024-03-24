@@ -1,22 +1,13 @@
-import { Employee } from "./employee";
-import { Customer } from "./customer";
-import { User } from "./user";
-import { Logger } from "./logger";
-import { Logable } from "./logable";
+import { Express, Request, Response } from "express"
 
-let employee= new Employee(`Aday`, new Date(), `1234`);
-let customer= new Customer(`Janniel`, new Date(),);
+const express = require('express')
+const app = express()
 
-let logger= new Logger();
-logger.info(employee);
-logger.info(customer);
+app.get('/foo', function (req: Request, res: Response) {
+    console.log(req.headers)
+  res.send('Hello World')
+})
 
-let logable: Logable = {
-    toString() {
-        return'It worked'
-    }
-    
-}
-
+app.listen(3000)
 
 
