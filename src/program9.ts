@@ -19,4 +19,4 @@ app.get('/foo', function(req: Request, res: Response){
 })
 
 app.listen(3000)
-//Server is running on localhost:3000/ or localhost:3000/foo?var=value
+//Server is running on localhost:3000/ or localhost:3000/foo?var=value or whatever you want to put on value
